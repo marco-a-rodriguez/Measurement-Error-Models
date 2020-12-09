@@ -1,9 +1,9 @@
-# Measurement Error Models
+### Measurement Error Models
 
-## Code and data files for "Measurement error models reveal the scale of consumer 
+#### Code and data files for "Measurement error models reveal the scale of consumer 
 movements along an isoscape gradient" (Rodríguez 2021)
 
-Data files:
+##### Data files:
 
 MEMdataSalmonRasmussen2009.csv
   Original source: Rasmussen et al. (2009), Supplementary Material, 
@@ -20,7 +20,7 @@ MEMdataCatsharkBird2018.csv
 
 
 
-R code files:
+##### R code files:
 
 MEM_empirical_data.r
   R code to generate results of the section "Results: Estimates of movement
@@ -44,7 +44,7 @@ MEMfunctions.r
   models reveal the scale of consumer movements along an isoscape gradient"
 
 
-Stan code files:
+##### Stan code files:
 
 MEMgaussian.stan
 MEMlaplace.stan
