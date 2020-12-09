@@ -1,14 +1,14 @@
-### Code and data files for "Measurement error models reveal the scale of consumer movements along an isoscape gradient" (Rodríguez 2021)   
+#### Code and data files for "Measurement error models reveal the scale of consumer movements along an isoscape gradient" (Rodríguez 2021)   
 
 #### Data files:   
 MEMdataSalmonRasmussen2009.csv   
-_Original source: Rasmussen et al. (2009), Supplementary Material, file JANE_1511_sm_AppendixS1.doc; https://doi.org/10.1111/j.1365-2656.2008.01511.x_  
+* _Original source: Rasmussen et al. (2009), Supplementary Material, file JANE_1511_sm_AppendixS1.doc; https://doi.org/10.1111/j.1365-2656.2008.01511.x_  
 
 MEMdataBluesharkBird2018.csv   
-_Original source: Bird et al. (2018); https://datadryad.org/stash/dataset/doi:10.5061/dryad.d1f0d_
+* _Original source: Bird et al. (2018); https://datadryad.org/stash/dataset/doi:10.5061/dryad.d1f0d_
 
 MEMdataCatsharkBird2018.csv   
-_Original source: Bird et al. (2018); https://datadryad.org/stash/dataset/doi:10.5061/dryad.d1f0d_ 
+* _Original source: Bird et al. (2018); https://datadryad.org/stash/dataset/doi:10.5061/dryad.d1f0d_ 
 
 #### R code files:
 MEM_empirical_data.r
