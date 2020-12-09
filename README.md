@@ -33,18 +33,13 @@ MEMfunctions.r
   models reveal the scale of consumer movements along an isoscape gradient"
 
 
-##### Stan code files:
-
-MEMgaussian.stan
-MEMlaplace.stan
-MEMstudent.stan
-  Stan code to generate results for the section "Applications of the model: 
-  quantifying the movements of three fish species" in "Measurement error models 
-  reveal the scale of consumer movements along an isoscape gradient"
+##### Stan code files:   
+MEMgaussian.stan   
+MEMlaplace.stan   
+MEMstudent.stan   
+  Stan code to generate results for the section "Applications of the model: quantifying the movements of three fish species" in "Measurement error models reveal the scale of consumer movements along an isoscape gradient"   
   Are called by R program MEM_empirical_data.r
  
-MEMsims.stan
-  Stan code to generate results of the section "Results: Performance of 
-  estimators in simulated scenarios" in ms "Measurement error models reveal the 
-  scale of consumer movements along an isoscape gradient"
-  Is called by R program MEM_simulated_data.r
+MEMsims.stan   
+  Stan code to generate results of the section "Results: Performance of estimators in simulated scenarios" in ms "Measurement error models reveal the scale of consumer movements along an isoscape gradient"   
+  Is called by R program MEM_simulated_data.r   
