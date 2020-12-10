@@ -12,25 +12,24 @@ MEMdataCatsharkBird2018.csv
 
 #### R code files:
 MEM_empirical_data.r
-* _R code to generate results of the section "Results: Estimates of movement scale and fractionation in three fish species" in "Measurement error models
-reveal the scale of consumer movements along an isoscape gradient"_   
+* _R code to generate results of the section "Results: Estimates of movement scale and fractionation in three fish species"_   
 * _Reads data from MEMdataSalmonRasmussen2009.csv, MEMdataBluesharkBird2018.csv, or MEMdataCatsharkBird2018.csv_   
 * _Calls Stan programs MEMgaussian.stan, MEMlaplace.stan, or MEMstudent.stan_   
 * _Loads required functions from MEMfunctions.r_   
 
 MEM_simulated_data.r   
-* _R code to generate results of the section "Results: Performance of estimators in simulated scenarios" in "Measurement error models reveal the scale of consumer movements along an isoscape gradient"_   
+* _R code to generate results of the section "Results: Performance of estimators in simulated scenarios"_   
 * _Calls Stan program MEMsims.stan_   
 * _Loads required functions from MEMfunctions.r_   
 
 MEMfunctions.r   
-* _R libraries and functions sourced by R programs in "Measurement error models reveal the scale of consumer movements along an isoscape gradient"_   
+* _R libraries and functions sourced by R programs MEM_empirical_data.r and MEM_simulated_data.r_
 
 #### Stan code files:   
 MEMgaussian.stan; MEMlaplace.stan; MEMstudent.stan   
-* _Stan code to generate results for the section "Applications of the model: quantifying the movements of three fish species" in "Measurement error models reveal the scale of consumer movements along an isoscape gradient"_   
+* _Stan code to generate results for the section "Applications of the model: quantifying the movements of three fish species"_   
 * _Are called by R program MEM_empirical_data.r_   
  
 MEMsims.stan   
-* _Stan code to generate results of the section "Results: Performance of estimators in simulated scenarios" in "Measurement error models reveal the scale of consumer movements along an isoscape gradient"_   
+* _Stan code to generate results of the section "Results: Performance of estimators in simulated scenarios"_   
 * _Is called by R program MEM_simulated_data.r_   
