@@ -1,0 +1,20 @@
+DEFINITION OF VARIABLES IN THE DATA FILES
+
+File: MEMdataSalmonRasmussen2009.csv
+  RiverDist = x: Spatial position (river distance) of baseline resouces or consumers
+  InvertAVI = Yb: Carbon isotopic value for baseline resources
+  SalmonAVI = Yc:  Carbon isotopic value for consumers
+
+File: MEMdataBluesharkBird2018.csv
+  Species: Species latin name
+  Latitude: Geographic latitude (northern hemisphere)
+  meanLH = yb: Carbon isotopic value for baseline resources
+  d13C = yc: Carbon isotopic value for consumers
+  x: Distance from the equator (km)
+
+File: MEMdataCatsharkBird2018.csv
+  Species: Species latin name
+  Latitude: Geographic latitude (northern hemisphere)
+  meanLH = yb: Carbon isotopic value for baseline resources
+  d13C = yc: Carbon isotopic value for consumers
+  x: Distance from the equator (km)
