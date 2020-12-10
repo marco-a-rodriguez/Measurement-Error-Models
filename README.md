@@ -1,5 +1,4 @@
 #### Code and data files for "Measurement error models reveal the scale of consumer movements along an isoscape gradient" (Rodríguez 2021)   
-https://zenodo.org/badge/doi/10.5281/zenodo.4315069.svg
 
 #### Data files:   
 MEMdataSalmonRasmussen2009.csv   
